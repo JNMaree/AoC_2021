@@ -5,5 +5,5 @@ use crate::days::*;
 mod days;
 
 fn main() {
-    println!("AoC: day1\n{}", day1::solve());
+    println!("AoC day1:{}", day1::solve());
 }
