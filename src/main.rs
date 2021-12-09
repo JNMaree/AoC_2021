@@ -1,8 +1,9 @@
-mod day1;
+#![warn(unused_doc_comments)]
 
-use ferris_says::say;
-use std::io::{BufWriter, stdout};
+use crate::days::*;
+
+mod days;
 
 fn main() {
-
+    println!("AoC day1:{}", day1::solve());
 }
